@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xxun.watch.xunpet.view.DragLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xxun.watch.xunpet.activity.XunPetAdoptActivity">
+
+    <RelativeLayout
+        android:layout_width="@dimen/screen_width"
+        android:layout_height="@dimen/screen_height"
+        android:layout_centerInParent="true"
+        android:background="@color/bg_color">
+
+        <RelativeLayout
+            android:layout_width="@dimen/screen_width"
+            android:layout_height="@dimen/screen_height">
+            <ImageView
+                android:id="@+id/iv_xunpet_adopt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ImageButton
+                android:id="@+id/btn_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingStart="@dimen/adopt_left_margin_start"
+                android:paddingEnd="@dimen/adopt_left_margin_end"
+                android:src="@drawable/select_left"
+                android:background="@color/bg_color"/>
+            <ImageButton
+                android:id="@+id/btn_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:paddingStart="@dimen/adopt_right_margin_start"
+                android:paddingEnd="@dimen/adopt_right_margin_end"
+                android:src="@drawable/select_right"
+                android:background="@color/bg_color"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_confirm_adopt"
+            android:layout_width="@dimen/screen_width"
+            android:layout_height="@dimen/bottom_height"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/btn_confirm_adopt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_confirm_adopt_selector" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_confirm_second_adopt"
+            android:layout_width="@dimen/screen_width"
+            android:layout_height="@dimen/bottom_height"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:visibility="gone">
+            <ImageView
+                android:id="@+id/btn_confirm"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/btn_confirm_selector" />
+            <ImageView
+                android:id="@+id/btn_cancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/btn_cancel_selector" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</com.xxun.watch.xunpet.view.DragLayout>

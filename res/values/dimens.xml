@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="screen_width">240px</dimen>
+    <dimen name="screen_height">240px</dimen>
+    <dimen name="main_height">190px</dimen>
+    <dimen name="bottom_height">50px</dimen>
+
+    <dimen name="adopt_left_margin_start">10px</dimen>
+    <dimen name="adopt_left_margin_end">7px</dimen>
+    <dimen name="adopt_right_margin_start">8px</dimen>
+    <dimen name="adopt_right_margin_end">10px</dimen>
+    <dimen name="feed_margin_start">10px</dimen>
+    <dimen name="feed_margin_end">10px</dimen>
+    <dimen name="feed_margin_bottom">4px</dimen>
+    <dimen name="progress_height">15.3px</dimen>
+    <dimen name="progress_margin_start">10.0px</dimen>
+    <dimen name="progress_margin_top">184.4px</dimen>
+
+    <dimen name="rank_item_height">28px</dimen>
+    <dimen name="rank_item_interval">28px</dimen>
+    <dimen name="rank_item_margin_start">15px</dimen>
+    <dimen name="rank_item_margin_end">15px</dimen>
+    <dimen name="rank_item_margin_top">4px</dimen>
+
+    <dimen name="textsize_step">25px</dimen>
+
+</resources>

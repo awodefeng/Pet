@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+	<string name="id">values-zh-rTW</string>
+	<string name="can_not_eat_again">不可以再吃啦</string>
+	<string name="have_no_food">沒有食物啦</string>
+	<string name="local_city_default">城市</string>
+	<string name="local_city_rank">暫無排名</string>
+	<string name="whole_country">全國</string>
+	<string name="whole_country_rank">暫無排名</string>
+	<string name="front_rank">前</string>
+	<string name="pet_reset_fail">重置失敗</string>
+	<string name="pet_reset">寵物重置</string>
+	<string name="pet_not_adopt">你還沒有領養寵物呢！</string>
+</resources>

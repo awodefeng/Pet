@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#ff202726</color>
+    <color name="dark_grey">#ff202726</color>
+    <color name="true_black">#ff000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="txt_grey">#ffb5b5b4</color>
+    <color name="bg_color">#ff000000</color>
+    <color name="bg_grey">#ffeaeaea</color>
+    <color name="dialog_bg_white">#fff8f8f8</color>
+    <color name="welcome_bg_color">#f66d3e</color>
+    <color name="m_a_spliter_line">#ffadadad</color>
+    <color name="chat_item_text">#77e5e5e5</color>
+    <color name="color_1">#b0000000</color>
+    <color name="color_3">#ffed5f11</color>
+    <color name="color_5">#7F000000</color>
+    <color name="color_6">#fff8f8f8</color>
+    <color name="color_7">#cc000000</color>
+    <color name="color_9">#27000000</color>
+    <color name="bg_color_orange">#f66d3e</color>
+    <color name="warning_red">#ffd63318</color>
+    <color name="line_grey">#33000000</color>
+</resources>
+

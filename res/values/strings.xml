@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">XunPet</string>
+    <string name="record">record</string>
+    <string name="start">start</string>
+    <string name="stop">stop</string>
+    <string name="play">play</string>
+    <string name="tempo">tempo</string>
+    <string name="pitch">pitch</string>
+    <string name="rate">rate</string>
+
+    <string name="sound_stretch">SoundStretch</string>
+
+    <!-- pet feed -->
+    <string name="pet_step">10/2000</string>
+    <string name="can_not_eat_again">不可以再吃啦</string>
+    <string name="have_no_food">没有食物啦</string>
+    <string name="slash">/</string>
+
+    <!-- pet rank -->
+    <string name="pet_rank_level">LV</string>
+    <string name="pet_rank_level_one">LV1</string>
+    <string name="local_city_default">城市</string>
+    <string name="local_city_rank">暂无排名</string>
+    <string name="whole_country">全国</string>
+    <string name="whole_country_rank">暂无排名</string>
+    <string name="front_rank">前</string>
+    <string name="pet_experience_need">0/20</string>
+
+    <!-- other -->
+    <string name="pet_reset_fail">重置失败</string>
+    <string name="pet_reset">宠物重置</string>
+    <string name="pet_not_adopt">你还没有领养宠物呢！</string>
+
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+
+    <style name="SplashTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowBackground">@drawable/xunpet_splash</item>
+        <item name="android:windowFullscreen">true</item>
+        <!-- <item name="android:windowIsTranslucent">true</item> --> <!-- 透明背景不要了 -->
+    </style>
+
+    <declare-styleable name="CustomGifView">
+        <attr name="gif" format="reference" />
+        <attr name="paused" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="CustomTheme">
+        <attr name="gifViewStyle" format="reference" />
+    </declare-styleable>
+
+    <style name="AppDefaultTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowSwipeToDismiss">true</item>
+    </style>
+
+</resources>
